@@ -35,6 +35,8 @@ $tweaks = @(
 	"Install7Zip",
 	"InstallVisualStudioCodeInsiders",
 	"InstallMediaPlayerClassic",
+	"InstallFiraCode",
+	"InstallWindowsTerminal",
 
 	### Windows Apps
 	"DebloatAll",
@@ -59,64 +61,64 @@ $tweaks = @(
 	"DisableWAPPush",               # "EnableWAPPush",
 
 	### Security Tweaks ###
-	"SetUACLow",                  # "SetUACHigh",
+	#"SetUACLow",                  # "SetUACHigh",
 	# "EnableSharingMappedDrives",  # "DisableSharingMappedDrives",
 	# "DisableAdminShares",           # "EnableAdminShares",
-	"DisableSMB1",                # "EnableSMB1",
+	#"DisableSMB1",                # "EnableSMB1",
 	# "DisableSMBServer",           # "EnableSMBServer",
 	# "DisableLLMNR",               # "EnableLLMNR",
-	"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
-	"SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
-	"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
-	"DisableCtrldFolderAccess",	# "EnableCtrldFolderAccess",
+	#"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
+	#"SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
+	#"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
+	#"DisableCtrldFolderAccess",	# "EnableCtrldFolderAccess",
 	# "DisableFirewall",            # "EnableFirewall",
-	"DisableDefender",            # "EnableDefender",
-	"DisableDefenderCloud",       # "EnableDefenderCloud",
-	"EnableF8BootMenu",             # "DisableF8BootMenu",
+	#"DisableDefender",            # "EnableDefender",
+	#"DisableDefenderCloud",       # "EnableDefenderCloud",
+	#"EnableF8BootMenu",             # "DisableF8BootMenu",
 	#"SetDEPOptOut",                 # "SetDEPOptIn",
 	# "EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
 	#"DisableScriptHost",            # "EnableScriptHost",
 	#"EnableDotNetStrongCrypto",     # "DisableDotNetStrongCrypto",
-	"DisableMeltdownCompatFlag", # "EnableMeltdownCompatFlag"    
+	#"DisableMeltdownCompatFlag", # "EnableMeltdownCompatFlag"    
 
 	### Service Tweaks ###
-	"DisableUpdateMSRT",          # "EnableUpdateMSRT",
-	"DisableUpdateDriver",        # "EnableUpdateDriver",
-	"DisableUpdateRestart",         # "EnableUpdateRestart",
-	"DisableHomeGroups",          # "EnableHomeGroups",
-	"DisableSharedExperiences",     # "EnableSharedExperiences",
-	"DisableRemoteAssistance",      # "EnableRemoteAssistance",
-	"EnableRemoteDesktop",          # "DisableRemoteDesktop",
-	"DisableAutoplay",              # "EnableAutoplay",
-	"DisableAutorun",               # "EnableAutorun",
-	"DisableStorageSense",        # "EnableStorageSense",
-	"DisableDefragmentation",     # "EnableDefragmentation",
-	"DisableSuperfetch",          # "EnableSuperfetch",
-	"DisableIndexing",            # "EnableIndexing",
-	"SetBIOSTimeUTC",             # "SetBIOSTimeLocal",
-	"DisableHibernation",		# "EnableHibernation",          # 
-	"EnableSleepButton",		# "DisableSleepButton",         
-	"DisableSleepTimeout",        # "EnableSleepTimeout",
+	#"DisableUpdateMSRT",          # "EnableUpdateMSRT",
+	#"DisableUpdateDriver",        # "EnableUpdateDriver",
+	#"DisableUpdateRestart",         # "EnableUpdateRestart",
+	#"DisableHomeGroups",          # "EnableHomeGroups",
+	#"DisableSharedExperiences",     # "EnableSharedExperiences",
+	#"DisableRemoteAssistance",      # "EnableRemoteAssistance",
+	#"EnableRemoteDesktop",          # "DisableRemoteDesktop",
+	#"DisableAutoplay",              # "EnableAutoplay",
+	#"DisableAutorun",               # "EnableAutorun",
+	#"DisableStorageSense",        # "EnableStorageSense",
+	#"DisableDefragmentation",     # "EnableDefragmentation",
+	#"DisableSuperfetch",          # "EnableSuperfetch",
+	#"DisableIndexing",            # "EnableIndexing",
+	#"SetBIOSTimeUTC",             # "SetBIOSTimeLocal",
+	#"DisableHibernation",		# "EnableHibernation",          # 
+	#"EnableSleepButton",		# "DisableSleepButton",         
+	#"DisableSleepTimeout",        # "EnableSleepTimeout",
 	# "DisableFastStartup",         # "EnableFastStartup",
 
 	### UI Tweaks ###
-	"DisableActionCenter",          # "EnableActionCenter",
-	"DisableLockScreen",            # "EnableLockScreen",
-	"DisableLockScreenRS1",       # "EnableLockScreenRS1",
+	#"DisableActionCenter",          # "EnableActionCenter",
+	#"DisableLockScreen",            # "EnableLockScreen",
+	#"DisableLockScreenRS1",       # "EnableLockScreenRS1",
 	# "HideNetworkFromLockScreen",    # "ShowNetworkOnLockScreen",
 	# "HideShutdownFromLockScreen",   # "ShowShutdownOnLockScreen",
 	"DisableStickyKeys",            # "EnableStickyKeys",
-	"ShowTaskManagerDetails"        # "HideTaskManagerDetails",
-	"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
-	"DisableFileDeleteConfirm",	# "EnableFileDeleteConfirm",    
+	#"ShowTaskManagerDetails"        # "HideTaskManagerDetails",
+	#"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
+	#"DisableFileDeleteConfirm",	# "EnableFileDeleteConfirm",    
 	#"HideTaskbarSearch",
-	"ShowTaskbarSearchIcon",      # "ShowTaskbarSearchBox",
-	"HideTaskView",                 # "ShowTaskView",
+	#"ShowTaskbarSearchIcon",      # "ShowTaskbarSearchBox",
+	#"HideTaskView",                 # "ShowTaskView",
 	# "ShowSmallTaskbarIcons",        # "ShowLargeTaskbarIcons",
 	# "SetTaskbarCombineWhenFull",    # "SetTaskbarCombineNever",     # "SetTaskbarCombineAlways",
 	# "HideTaskbarPeopleIcon",        # "ShowTaskbarPeopleIcon",
-	"ShowTrayIcons",                # "HideTrayIcons",
-	"DisableSearchAppInStore",      # "EnableSearchAppInStore",
+	#"ShowTrayIcons",                # "HideTrayIcons",
+	#"DisableSearchAppInStore",      # "EnableSearchAppInStore",
 	"DisableNewAppPrompt",          # "EnableNewAppPrompt",
 	# "SetControlPanelSmallIcons",  # "SetControlPanelLargeIcons",  # "SetControlPanelCategories",
 	# "SetVisualFXPerformance",     # "SetVisualFXAppearance",
@@ -161,7 +163,7 @@ $tweaks = @(
 	"InstallMediaPlayer", 		# "UninstallMediaPlayer",
 	"UninstallInternetExplorer",  # "InstallInternetExplorer",
 	"UninstallWorkFolders",       # "InstallWorkFolders",
-	"InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
+	#"InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
 	# "InstallHyperV",              # "UninstallHyperV",
 	"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
@@ -178,7 +180,7 @@ $tweaks = @(
 	# "EnableAudio",                # "DisableAudio",
 
 	### Unpinning ###
-	"UnpinStartMenuTiles",
+	#"UnpinStartMenuTiles",
 	#"UnpinTaskbarIcons",
 
 	### Auxiliary Functions ###
@@ -225,6 +227,17 @@ Function InstallMediaPlayerClassic {
 	Write-Output "Installing VLC"
 	choco install vlc -y
 }
+
+Function InstallFiraCode {
+	Write-Output "Installing VLC"
+	choco install firacode -y
+}
+
+Function InstallWindowsTerminal {
+	Write-Output "Installing VLC"
+	choco install microsoft-windows-terminal -y
+}
+
 
 ##########
 # Privacy Tweaks
